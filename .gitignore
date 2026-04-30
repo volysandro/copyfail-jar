@@ -1,0 +1,17 @@
+target/
+.cpcache/
+.nrepl-port
+.calva/
+.clj-kondo/.cache/
+.lsp/.cache/
+
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+.DS_Store
+
+.codex
