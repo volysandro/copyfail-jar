@@ -2,7 +2,7 @@
 
 Clojure/JVM build of the copyfail proof of concept.
 
-The code mirrors the Python and Go versions in this directory. It uses the JDK foreign-function API to call the Linux syscalls needed by the AF_ALG/splice path, then runs `su`.
+It uses the JDK foreign-function API to call the Linux syscalls needed by the AF_ALG/splice path, then runs `su`.
 
 ## Requirements
 
