@@ -6,10 +6,8 @@ The code mirrors the Python and Go versions in this directory. It uses the JDK f
 
 ## Requirements
 
-- Linux
-- Clojure CLI
-- JDK with the `java.lang.foreign` API, tested here with JDK 25
-- `su` at `/usr/bin/su` or somewhere in `PATH`
+- Linux & Java
+- Clojure CLI & JDK to build
 
 Only `amd64` and `arm64` payloads are included.
 
@@ -24,6 +22,8 @@ The jar is written to:
 ```sh
 target/copyfail-0.1.0-standalone.jar
 ```
+
+Or just grab the [release](https://github.com/volysandro/copyfail-jar/releases/tag/0.1.0)!
 
 ## Run
 
